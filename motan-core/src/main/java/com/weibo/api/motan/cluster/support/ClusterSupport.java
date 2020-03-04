@@ -82,6 +82,7 @@ public class ClusterSupport<T> implements NotifyListener {
                     notify(ru, directUrls);
                     LoggerUtil.info("Use direct urls, refUrl={}, directUrls={}", url, directUrls);
                     continue;
+
                 }
             }
 
